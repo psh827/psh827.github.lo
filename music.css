@@ -1,0 +1,46 @@
+.ex1 {
+    text-align: center;
+}
+.ex1 .head{
+    font-size: 38px;
+    font-weight: bold;
+    display: inline-block;
+    position: relative;
+    margin-left:50px;
+}
+.ex1 .head:before{
+    content: '';
+    display: block;
+    width: 80px;
+    height: 2px;
+    background: #EF1548;
+    position: absolute;
+    top: 27px;
+    left: -100px;
+}
+.ex1 .head:after{
+    content: '';
+    display: block;
+    width: 80px;
+    height: 2px;
+    background: #EF1548;
+    position: absolute;
+    top: 27px;
+    right: -100px;
+}
+
+.ex2 .btn{
+    display: block;
+    border: 1px solid #00479A;
+    border-radius: 2px;
+    text-align: center;
+    position: relative;
+    width: 270px;
+    padding: 20px 20px 17px;
+    text-decoration: none;
+}
+
+.ex2 .btn:hover{
+    background: #00479A;
+    color: #fff;
+}

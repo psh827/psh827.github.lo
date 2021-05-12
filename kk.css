@@ -1,0 +1,125 @@
+.header {
+  width: 100%;
+  margin: 35px 0;
+  transition: all 0.2s;
+}
+.container {
+  max-width: 1300px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: 0 auto;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  flex: 0 1 auto;
+  flex-direction: row;
+  box-sizing: border-box;
+  margin-left: -15px;
+  margin-right: -15px;
+}
+.logo__link {
+  font-family: "Poppins",Arial,sans-serif;
+  font-size: 27px;
+  line-height: 1;
+  font-weight: 700;
+  vertical-align: middle;
+  color: rgb(87, 11, 150);
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 2px;
+  transition: none;
+  display: flex;
+  margin-left: 10px;
+}
+.nav {
+  height : 50px;
+  border-bottom: 1px solid black;
+  display: flex;
+  align-items : center;
+  font-size : 20px;
+}
+.nav-left-items {
+  display: flex;
+  margin-left: auto;
+}
+
+.nav-item {
+  margin-left : 10px;
+}
+.nav__list{
+  display: flex;
+  list-style-type: none;
+}
+.main .title{
+  font-size: 38px;
+  font-weight: bold;
+  display: inline-block;
+  position: relative;
+}
+.main .title:before{
+  content: '';
+  display: inline-block;
+  width: 80px;
+  height: 2px;
+  background: #EF1548;
+  position: absolute;
+  top: 27px;
+  left: -100px;
+}
+.main .title:after{
+  content: '';
+  display: inline-block;
+  width: 80px;
+  height: 2px;
+  background: #EF1548;
+  position: absolute;
+  top: 27px;
+  right: -100px;
+}
+.subtitle{
+  text-align: center;
+  font-size: 16px;
+  font-weight: 300;
+  padding-top: 10px;
+}
+.main {
+  width: 800px;
+  margin: 0 auto;
+  margin-top: 68px;
+  text-align: center;
+}
+.img-first{
+  border : 3px;
+  width : 500px;
+  height : 300px;
+  display: block;
+  margin-left:auto;
+  margin-right: auto;
+  margin-top: 60px;
+  margin-bottom: none;
+}
+.just {
+  font-family: "Poppins",Arial,sans-serif;
+  font-size : 20px;
+  font-weight: 200;
+  color: black; 
+  display: flex;
+}
+
+.ex2 .btn{
+  display: inline-block;
+  border: 1px solid #00479A;
+  border-radius: 2px;
+  text-align: center;
+  position: relative;
+  width: 270px;
+  padding: 20px 20px 17px;
+  text-decoration: none;
+
+}
+
+.ex2 .btn:hover{
+  background: #00479A;
+  color: #fff;
+}
